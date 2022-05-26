@@ -33,7 +33,7 @@ class GardenbabyTranslator():
             raise Exception('Not a gardenbaby code!') from e
         return out
 
-
+#baby
 gardenbaby_code = input("请输入要解码的gardenbaby-code：")
 t = GardenbabyTranslator
 hex_code = t().gardenbaby_2_hex(gardenbaby_code)
